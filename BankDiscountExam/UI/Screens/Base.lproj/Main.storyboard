@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m3q-iv-n4x">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CNN - RSS-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="BankDiscountExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="KD5-ey-vs9">
+                                <rect key="frame" x="134" y="400.5" width="146" height="95"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Idan Moshe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Afl-f0-xY0">
+                                        <rect key="frame" x="29" y="0.0" width="88.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00/00/0000, 00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zET-ld-XSp">
+                                        <rect key="frame" x="0.0" y="28.5" width="146" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPc-Gm-IJs">
+                                        <rect key="frame" x="73" y="57" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UK-NC-zed">
+                                        <rect key="frame" x="57" y="65" width="32" height="30"/>
+                                        <state key="normal" title="Next"/>
+                                        <connections>
+                                            <segue destination="6ZT-KR-c1U" kind="show" id="g3v-wi-KHk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KD5-ey-vs9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SP4-3s-d1r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KD5-ey-vs9" secondAttribute="trailing" constant="20" id="dQC-Le-bgO"/>
+                            <constraint firstItem="KD5-ey-vs9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fJX-5M-eBv"/>
+                            <constraint firstItem="KD5-ey-vs9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xeH-K4-ZMQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="CNN - RSS" id="1iQ-aJ-QMI"/>
+                    <connections>
+                        <outlet property="dateAndTimeLabel" destination="zET-ld-XSp" id="Nw4-iE-yLH"/>
+                        <outlet property="emptyLabel" destination="CPc-Gm-IJs" id="mpY-TY-JhL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1121.7391304347827" y="117.85714285714285"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="x8V-Gm-qOe">
+            <objects>
+                <tabBarController id="6ZT-KR-c1U" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qCz-Pr-mcl"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6lZ-mR-0nQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="xQI-AP-3Ni" kind="relationship" relationship="viewControllers" id="h2m-JS-tEP"/>
+                        <segue destination="EAw-LB-Dz3" kind="relationship" relationship="viewControllers" id="bfB-33-h1J"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UHg-VV-kyb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2105.7971014492755" y="117.85714285714285"/>
+        </scene>
+        <!--Travel-->
+        <scene sceneID="vRp-BI-ZAI">
+            <objects>
+                <collectionViewController storyboardIdentifier="TravelCollectionViewController" id="xQI-AP-3Ni" customClass="TravelCollectionViewController" customModule="BankDiscountExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="QS5-6Y-7SI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="LOq-b9-jWI">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="xQI-AP-3Ni" id="jZc-2J-cVi"/>
+                            <outlet property="delegate" destination="xQI-AP-3Ni" id="wPD-KG-ZFX"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Travel" image="map" catalog="system" id="2TM-pw-av9"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N4q-Cz-DLa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3063.768115942029" y="-109.15178571428571"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KwQ-Kn-D8Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m3q-iv-n4x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sS8-ok-Ims">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="DE8-I6-CNX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XEk-xz-Rnd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="211.59420289855075" y="117.85714285714285"/>
+        </scene>
+        <!--Sport & Entertainment-->
+        <scene sceneID="cMJ-OB-4U4">
+            <objects>
+                <collectionViewController storyboardIdentifier="SportEntertainmentCollectionViewController" id="EAw-LB-Dz3" customClass="SportEntertainmentCollectionViewController" customModule="BankDiscountExam" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="cQB-jT-SPY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="x1v-WQ-75t">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="EAw-LB-Dz3" id="IkY-8H-fjU"/>
+                            <outlet property="delegate" destination="EAw-LB-Dz3" id="v7G-m6-zZx"/>
+                        </connections>
+                    </collectionView>
+                    <tabBarItem key="tabBarItem" title="Sport &amp; Entertainment" image="tv" catalog="system" id="EWr-2y-l9T"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vIJ-pc-O9a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3064" y="605"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="tv" catalog="system" width="128" height="97"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

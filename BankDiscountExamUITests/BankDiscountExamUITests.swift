@@ -39,4 +39,19 @@ class BankDiscountExamUITests: XCTestCase {
             }
         }
     }
+    
+    func testCollectionViewDataSource() {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle(for: TravelCollectionViewController.self))
+                
+        guard let travelCollectionViewController = storyboard.instantiateViewController(withIdentifier: "TravelCollectionViewController") as? TravelCollectionViewController else {
+            XCTFail("TravelCollectionViewController cannot be nil")
+            return
+        }
+        
+        travelCollectionViewController.loadView()
+        
+        let cell = travelCollectionViewController.collectionView.cellForItem(at: IndexPath(item: 0, section: 0))
+        XCTAssertNil(cell, "UICollectionViewCell cannot be nil")
+    }
+    
 }

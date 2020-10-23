@@ -3,18 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A6095EB25435570001638B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2505A2541D5AB009F40CC /* Main.storyboard */; };
+		8A6095EF25435571001638B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2505A2541D5AB009F40CC /* Main.storyboard */; };
+		8A6095F325435575001638B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250582541D5AB009F40CC /* MainViewController.swift */; };
+		8A6095F725435576001638B5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250582541D5AB009F40CC /* MainViewController.swift */; };
 		8AC250552541D5AB009F40CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250542541D5AB009F40CC /* AppDelegate.swift */; };
-		8AC250572541D5AB009F40CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250562541D5AB009F40CC /* SceneDelegate.swift */; };
-		8AC250592541D5AB009F40CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250582541D5AB009F40CC /* ViewController.swift */; };
+		8AC250592541D5AB009F40CC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250582541D5AB009F40CC /* MainViewController.swift */; };
 		8AC2505C2541D5AB009F40CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2505A2541D5AB009F40CC /* Main.storyboard */; };
 		8AC2505E2541D5AD009F40CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2505D2541D5AD009F40CC /* Assets.xcassets */; };
 		8AC250612541D5AD009F40CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC2505F2541D5AD009F40CC /* LaunchScreen.storyboard */; };
 		8AC2506C2541D5AD009F40CC /* BankDiscountExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2506B2541D5AD009F40CC /* BankDiscountExamTests.swift */; };
 		8AC250772541D5AD009F40CC /* BankDiscountExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250762541D5AD009F40CC /* BankDiscountExamUITests.swift */; };
+		8AC250942541E194009F40CC /* CnnRssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250932541E194009F40CC /* CnnRssParser.swift */; };
+		8AC250952541E194009F40CC /* CnnRssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250932541E194009F40CC /* CnnRssParser.swift */; };
+		8AC250962541E194009F40CC /* CnnRssParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250932541E194009F40CC /* CnnRssParser.swift */; };
+		8AC2509B2541F25A009F40CC /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2509A2541F25A009F40CC /* RSSItem.swift */; };
+		8AC2509C2541F25A009F40CC /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2509A2541F25A009F40CC /* RSSItem.swift */; };
+		8AC2509D2541F25A009F40CC /* RSSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2509A2541F25A009F40CC /* RSSItem.swift */; };
+		8AC250A22541F8FD009F40CC /* RSSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250A12541F8FD009F40CC /* RSSOperation.swift */; };
+		8AC250A32541F8FD009F40CC /* RSSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250A12541F8FD009F40CC /* RSSOperation.swift */; };
+		8AC250A42541F8FD009F40CC /* RSSOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250A12541F8FD009F40CC /* RSSOperation.swift */; };
+		8AC250A925420091009F40CC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250A825420091009F40CC /* Application.swift */; };
+		8AC250AA25420091009F40CC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250A825420091009F40CC /* Application.swift */; };
+		8AC250AB25420091009F40CC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250A825420091009F40CC /* Application.swift */; };
+		8AC250B32542035A009F40CC /* TravelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250B22542035A009F40CC /* TravelCollectionViewController.swift */; };
+		8AC250B42542035A009F40CC /* TravelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250B22542035A009F40CC /* TravelCollectionViewController.swift */; };
+		8AC250B52542035A009F40CC /* TravelCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250B22542035A009F40CC /* TravelCollectionViewController.swift */; };
+		8AC250BB254206D6009F40CC /* RSSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250B9254206D6009F40CC /* RSSCollectionViewCell.swift */; };
+		8AC250BC254206D6009F40CC /* RSSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250B9254206D6009F40CC /* RSSCollectionViewCell.swift */; };
+		8AC250BD254206D6009F40CC /* RSSCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250B9254206D6009F40CC /* RSSCollectionViewCell.swift */; };
+		8AC250BE254206D6009F40CC /* RSSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC250BA254206D6009F40CC /* RSSCollectionViewCell.xib */; };
+		8AC250BF254206D6009F40CC /* RSSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC250BA254206D6009F40CC /* RSSCollectionViewCell.xib */; };
+		8AC250C0254206D6009F40CC /* RSSCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AC250BA254206D6009F40CC /* RSSCollectionViewCell.xib */; };
+		8AC250CF254219E9009F40CC /* SportEntertainmentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250CE254219E9009F40CC /* SportEntertainmentCollectionViewController.swift */; };
+		8AC250D0254219E9009F40CC /* SportEntertainmentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250CE254219E9009F40CC /* SportEntertainmentCollectionViewController.swift */; };
+		8AC250D1254219E9009F40CC /* SportEntertainmentCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250CE254219E9009F40CC /* SportEntertainmentCollectionViewController.swift */; };
+		8AC250D625422938009F40CC /* BaseFeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250D525422938009F40CC /* BaseFeedCollectionViewController.swift */; };
+		8AC250D725422939009F40CC /* BaseFeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250D525422938009F40CC /* BaseFeedCollectionViewController.swift */; };
+		8AC250D825422939009F40CC /* BaseFeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250D525422938009F40CC /* BaseFeedCollectionViewController.swift */; };
+		8AC250DD25422F1F009F40CC /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250DC25422F1F009F40CC /* PreferenceManager.swift */; };
+		8AC250DE25422F1F009F40CC /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250DC25422F1F009F40CC /* PreferenceManager.swift */; };
+		8AC250DF25422F1F009F40CC /* PreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC250DC25422F1F009F40CC /* PreferenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +70,7 @@
 /* Begin PBXFileReference section */
 		8AC250512541D5AB009F40CC /* BankDiscountExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankDiscountExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC250542541D5AB009F40CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8AC250562541D5AB009F40CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AC250582541D5AB009F40CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AC250582541D5AB009F40CC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8AC2505B2541D5AB009F40CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC2505D2541D5AD009F40CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC250602541D5AD009F40CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +81,16 @@
 		8AC250722541D5AD009F40CC /* BankDiscountExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankDiscountExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AC250762541D5AD009F40CC /* BankDiscountExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankDiscountExamUITests.swift; sourceTree = "<group>"; };
 		8AC250782541D5AD009F40CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AC250932541E194009F40CC /* CnnRssParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CnnRssParser.swift; sourceTree = "<group>"; };
+		8AC2509A2541F25A009F40CC /* RSSItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSItem.swift; sourceTree = "<group>"; };
+		8AC250A12541F8FD009F40CC /* RSSOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSOperation.swift; sourceTree = "<group>"; };
+		8AC250A825420091009F40CC /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		8AC250B22542035A009F40CC /* TravelCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCollectionViewController.swift; sourceTree = "<group>"; };
+		8AC250B9254206D6009F40CC /* RSSCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSCollectionViewCell.swift; sourceTree = "<group>"; };
+		8AC250BA254206D6009F40CC /* RSSCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RSSCollectionViewCell.xib; sourceTree = "<group>"; };
+		8AC250CE254219E9009F40CC /* SportEntertainmentCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportEntertainmentCollectionViewController.swift; sourceTree = "<group>"; };
+		8AC250D525422938009F40CC /* BaseFeedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFeedCollectionViewController.swift; sourceTree = "<group>"; };
+		8AC250DC25422F1F009F40CC /* PreferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +118,119 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A593B879B0E8CB1663346B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A60959E25430518001638B5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A60959F2543051F001638B5 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8A60959F2543051F001638B5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2505A2541D5AB009F40CC /* Main.storyboard */,
+				8A6095A025430524001638B5 /* Main */,
+				8A6095A42543054C001638B5 /* CNN - RSS */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8A6095A025430524001638B5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250582541D5AB009F40CC /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8A6095A42543054C001638B5 /* CNN - RSS */ = {
+			isa = PBXGroup;
+			children = (
+				8A6095AE25430593001638B5 /* Base */,
+				8A6095A525430559001638B5 /* Travel */,
+				8A6095AC25430569001638B5 /* Sport and Entertainment */,
+			);
+			path = "CNN - RSS";
+			sourceTree = "<group>";
+		};
+		8A6095A525430559001638B5 /* Travel */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250B22542035A009F40CC /* TravelCollectionViewController.swift */,
+			);
+			path = Travel;
+			sourceTree = "<group>";
+		};
+		8A6095AC25430569001638B5 /* Sport and Entertainment */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250CE254219E9009F40CC /* SportEntertainmentCollectionViewController.swift */,
+			);
+			path = "Sport and Entertainment";
+			sourceTree = "<group>";
+		};
+		8A6095AD2543057C001638B5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250B9254206D6009F40CC /* RSSCollectionViewCell.swift */,
+				8AC250BA254206D6009F40CC /* RSSCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8A6095AE25430593001638B5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250D525422938009F40CC /* BaseFeedCollectionViewController.swift */,
+				8A6095AD2543057C001638B5 /* Cells */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8A6095AF25430649001638B5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250A825420091009F40CC /* Application.swift */,
+				8AC250542541D5AB009F40CC /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8A6095B62543066E001638B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2505D2541D5AD009F40CC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8A6095B72543067B001638B5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8AC2509A2541F25A009F40CC /* RSSItem.swift */,
+				8A6095B82543069D001638B5 /* Components */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8A6095B82543069D001638B5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8AC250DC25422F1F009F40CC /* PreferenceManager.swift */,
+				8AC250932541E194009F40CC /* CnnRssParser.swift */,
+				8AC250A12541F8FD009F40CC /* RSSOperation.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		8AC250482541D5AB009F40CC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +238,7 @@
 				8AC2506A2541D5AD009F40CC /* BankDiscountExamTests */,
 				8AC250752541D5AD009F40CC /* BankDiscountExamUITests */,
 				8AC250522541D5AB009F40CC /* Products */,
+				7A593B879B0E8CB1663346B6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +255,12 @@
 		8AC250532541D5AB009F40CC /* BankDiscountExam */ = {
 			isa = PBXGroup;
 			children = (
-				8AC250542541D5AB009F40CC /* AppDelegate.swift */,
-				8AC250562541D5AB009F40CC /* SceneDelegate.swift */,
-				8AC250582541D5AB009F40CC /* ViewController.swift */,
-				8AC2505A2541D5AB009F40CC /* Main.storyboard */,
-				8AC2505D2541D5AD009F40CC /* Assets.xcassets */,
+				8A6095AF25430649001638B5 /* Application */,
+				8A60959E25430518001638B5 /* UI */,
+				8A6095B62543066E001638B5 /* Resources */,
 				8AC2505F2541D5AD009F40CC /* LaunchScreen.storyboard */,
 				8AC250622541D5AD009F40CC /* Info.plist */,
+				8A6095B72543067B001638B5 /* Data */,
 			);
 			path = BankDiscountExam;
 			sourceTree = "<group>";
@@ -232,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AC250612541D5AD009F40CC /* LaunchScreen.storyboard in Resources */,
+				8AC250BE254206D6009F40CC /* RSSCollectionViewCell.xib in Resources */,
 				8AC2505E2541D5AD009F40CC /* Assets.xcassets in Resources */,
 				8AC2505C2541D5AB009F40CC /* Main.storyboard in Resources */,
 			);
@@ -241,6 +397,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC250BF254206D6009F40CC /* RSSCollectionViewCell.xib in Resources */,
+				8A6095EB25435570001638B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +406,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC250C0254206D6009F40CC /* RSSCollectionViewCell.xib in Resources */,
+				8A6095EF25435571001638B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +418,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AC250592541D5AB009F40CC /* ViewController.swift in Sources */,
+				8AC250B32542035A009F40CC /* TravelCollectionViewController.swift in Sources */,
+				8AC250592541D5AB009F40CC /* MainViewController.swift in Sources */,
+				8AC250CF254219E9009F40CC /* SportEntertainmentCollectionViewController.swift in Sources */,
+				8AC250A925420091009F40CC /* Application.swift in Sources */,
+				8AC250DD25422F1F009F40CC /* PreferenceManager.swift in Sources */,
+				8AC2509B2541F25A009F40CC /* RSSItem.swift in Sources */,
+				8AC250942541E194009F40CC /* CnnRssParser.swift in Sources */,
+				8AC250BB254206D6009F40CC /* RSSCollectionViewCell.swift in Sources */,
 				8AC250552541D5AB009F40CC /* AppDelegate.swift in Sources */,
-				8AC250572541D5AB009F40CC /* SceneDelegate.swift in Sources */,
+				8AC250A22541F8FD009F40CC /* RSSOperation.swift in Sources */,
+				8AC250D625422938009F40CC /* BaseFeedCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +436,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC250DE25422F1F009F40CC /* PreferenceManager.swift in Sources */,
+				8A6095F325435575001638B5 /* MainViewController.swift in Sources */,
+				8AC250D725422939009F40CC /* BaseFeedCollectionViewController.swift in Sources */,
+				8AC250AA25420091009F40CC /* Application.swift in Sources */,
+				8AC250BC254206D6009F40CC /* RSSCollectionViewCell.swift in Sources */,
 				8AC2506C2541D5AD009F40CC /* BankDiscountExamTests.swift in Sources */,
+				8AC250B42542035A009F40CC /* TravelCollectionViewController.swift in Sources */,
+				8AC250D0254219E9009F40CC /* SportEntertainmentCollectionViewController.swift in Sources */,
+				8AC2509C2541F25A009F40CC /* RSSItem.swift in Sources */,
+				8AC250A32541F8FD009F40CC /* RSSOperation.swift in Sources */,
+				8AC250952541E194009F40CC /* CnnRssParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +454,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AC250DF25422F1F009F40CC /* PreferenceManager.swift in Sources */,
+				8A6095F725435576001638B5 /* MainViewController.swift in Sources */,
+				8AC250D825422939009F40CC /* BaseFeedCollectionViewController.swift in Sources */,
+				8AC250AB25420091009F40CC /* Application.swift in Sources */,
+				8AC250BD254206D6009F40CC /* RSSCollectionViewCell.swift in Sources */,
 				8AC250772541D5AD009F40CC /* BankDiscountExamUITests.swift in Sources */,
+				8AC250B52542035A009F40CC /* TravelCollectionViewController.swift in Sources */,
+				8AC250D1254219E9009F40CC /* SportEntertainmentCollectionViewController.swift in Sources */,
+				8AC2509D2541F25A009F40CC /* RSSItem.swift in Sources */,
+				8AC250A42541F8FD009F40CC /* RSSOperation.swift in Sources */,
+				8AC250962541E194009F40CC /* CnnRssParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,6 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = BankDiscountExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanmoshe.BankDiscountExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +647,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3N3LX399B;
 				INFOPLIST_FILE = BankDiscountExam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +655,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.idanmoshe.BankDiscountExam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
